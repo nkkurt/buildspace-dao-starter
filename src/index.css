@@ -1,11 +1,11 @@
 html,
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: #5cdb95;
+  color: #edf5e1;
   overflow-x: hidden;
 }
 #root {
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -93,7 +93,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #05386b;
 }
 
 .member-page form .card > div {
@@ -107,23 +107,23 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #edf5e1;
   padding: 1rem;
-  border-radius: 1rem;
-  color: #000;
+  border-radius: 0.1rem;
+  color: #05386b;
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: #05386b;
+  color: #edf5e1;
   border: none;
   font-weight: bold;
   font-family: inherit;
   padding: 1.2rem 2rem;
   text-transform: uppercase;
-  border-radius: 3rem;
+  border-radius: 1rem;
   font-size: 1.2rem;
 }
 
